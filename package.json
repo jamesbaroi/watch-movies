@@ -1,0 +1,13 @@
+{
+  "name": "watch-movies",
+  "version": "1.0.0",
+  "description": "Watch movies.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "pm2 start index.js --watch"
+  },
+  "author": "James A. Baroi",
+  "license": "ISC"
+}
